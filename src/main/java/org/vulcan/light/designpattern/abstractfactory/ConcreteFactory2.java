@@ -1,19 +1,19 @@
-package org.vulcan.light.designpatterndemo.abstractfactory;
+package org.vulcan.light.designpattern.abstractfactory;
 
 /**
  * @author luxiaocong
  * @createdOn 2020/12/6
  */
-public class ConcreteFactory1 implements AbstractFactory {
+public class ConcreteFactory2 implements AbstractFactory {
 
     @Override
     public AbstractProductA createProductA() {
-        return new ProductA1();
+        return new ProductA2();
     }
 
     @Override
     public AbstractProductB createProductB() {
-        return new ProductB1();
+        return new ProductB2();
     }
 
 }

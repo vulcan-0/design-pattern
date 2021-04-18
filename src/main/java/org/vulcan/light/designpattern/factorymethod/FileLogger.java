@@ -1,4 +1,4 @@
-package org.vulcan.light.designpatterndemo.factorymethod;
+package org.vulcan.light.designpattern.factorymethod;
 
 /**
  * @author luxiaocong

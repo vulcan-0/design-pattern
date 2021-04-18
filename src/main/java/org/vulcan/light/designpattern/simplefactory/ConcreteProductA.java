@@ -1,4 +1,4 @@
-package org.vulcan.light.designpatterndemo.simplefactory;
+package org.vulcan.light.designpattern.simplefactory;
 
 /**
  * @author luxiaocong

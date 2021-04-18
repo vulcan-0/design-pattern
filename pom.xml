@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.vulcan.light</groupId>
-  <artifactId>design-pattern-demo</artifactId>
+  <artifactId>design-pattern</artifactId>
   <version>1.0.0</version>
 
   <properties>
