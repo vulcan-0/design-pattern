@@ -1,7 +1,7 @@
-package org.vulcan.light.designpattern.abstractfactory;
+package org.vulcan.light.designpattern.abstractfactory.definition;
 
 /**
- * @author luxiaocong
+ * @author Sam Lu
  * @createdOn 2020/12/6
  */
 public class ConcreteFactory2 implements AbstractFactory {

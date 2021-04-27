@@ -1,14 +1,12 @@
-package org.vulcan.light.designpattern.factorymethod;
-
-import java.sql.*;
+package org.vulcan.light.designpattern.factorymethod.example;
 
 /**
- * @author luxiaocong
+ * @author Sam Lu
  * @createdOn 2020/12/6
  */
 public class Client {
 
-    public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) {
         LoggerFactory fileLoggerFactory = new FileLoggerFactory();
         Logger fileLogger = fileLoggerFactory.createLogger();
         fileLogger.writeLog();
@@ -16,11 +14,6 @@ public class Client {
         LoggerFactory databaseLoggerFactory = new DatabaseLoggerFactory();
         Logger databaseLogger = databaseLoggerFactory.createLogger();
         databaseLogger.writeLog();
-
-        // JDK example
-        Connection connection = DriverManager.getConnection("");
-        Statement statement = connection.createStatement();
-        ResultSet resultSet = statement.executeQuery("select * from user_info");
     }
 
 }

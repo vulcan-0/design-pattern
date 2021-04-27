@@ -1,7 +1,7 @@
-package org.vulcan.light.designpattern.simplefactory;
+package org.vulcan.light.designpattern.simplefactory.definition;
 
 /**
- * @author luxiaocong
+ * @author Sam Lu
  * @createdOn 2020/12/6
  */
 public class ConcreteProductA implements Product {

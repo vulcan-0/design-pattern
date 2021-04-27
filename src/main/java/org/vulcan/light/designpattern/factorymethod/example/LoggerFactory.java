@@ -1,13 +1,13 @@
-package org.vulcan.light.designpattern.factorymethod;
+package org.vulcan.light.designpattern.factorymethod.example;
 
 /**
- * @author luxiaocong
+ * @author Sam Lu
  * @createdOn 2020/12/6
  */
 public interface LoggerFactory {
 
     /**
-     * create a Logger
+     * Create a Logger
      *
      * @return
      */

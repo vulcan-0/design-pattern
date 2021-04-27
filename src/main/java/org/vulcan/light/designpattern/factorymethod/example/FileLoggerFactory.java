@@ -1,7 +1,7 @@
-package org.vulcan.light.designpattern.factorymethod;
+package org.vulcan.light.designpattern.factorymethod.example;
 
 /**
- * @author luxiaocong
+ * @author Sam Lu
  * @createdOn 2020/12/6
  */
 public class FileLoggerFactory implements LoggerFactory {
