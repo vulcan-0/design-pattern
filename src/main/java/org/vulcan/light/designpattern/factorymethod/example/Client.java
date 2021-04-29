@@ -2,7 +2,7 @@ package org.vulcan.light.designpattern.factorymethod.example;
 
 /**
  * @author Sam Lu
- * @createdOn 2020/12/6
+ * @date 2020/12/6
  */
 public class Client {
 

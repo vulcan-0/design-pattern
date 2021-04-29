@@ -2,9 +2,9 @@ package org.vulcan.light.designpattern.simplefactory.definition;
 
 /**
  * @author Sam Lu
- * @createdOn 2020/12/6
+ * @date 2020/12/6
  */
-public class Main {
+public class Client {
 
     public static void main(String[] args) {
         Product productA = SimpleFactory.createProduct("A");
