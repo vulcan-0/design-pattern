@@ -8,11 +8,11 @@ public class Client {
 
     public static void main(String[] args) {
         LoggerFactory fileLoggerFactory = new FileLoggerFactory();
-        Logger fileLogger = fileLoggerFactory.createLogger();
+        Logger fileLogger = fileLoggerFactory.getLogger();
         fileLogger.writeLog();
 
         LoggerFactory databaseLoggerFactory = new DatabaseLoggerFactory();
-        Logger databaseLogger = databaseLoggerFactory.createLogger();
+        Logger databaseLogger = databaseLoggerFactory.getLogger();
         databaseLogger.writeLog();
     }
 

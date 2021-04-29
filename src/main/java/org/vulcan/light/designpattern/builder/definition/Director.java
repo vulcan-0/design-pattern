@@ -8,8 +8,7 @@ public class Director {
 
     public static void main(String[] args) {
         Builder builder = new ConcreteBuilder();
-        builder.buildPart();
-        System.out.println(((ConcreteBuilder) builder).getResult().getPart());
+        System.out.println(builder.buildPart().getResult().getPart());
     }
 
 }

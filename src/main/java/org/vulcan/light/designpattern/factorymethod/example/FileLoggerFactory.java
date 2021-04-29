@@ -4,10 +4,10 @@ package org.vulcan.light.designpattern.factorymethod.example;
  * @author Sam Lu
  * @date 2020/12/6
  */
-public class FileLoggerFactory implements LoggerFactory {
+public class FileLoggerFactory extends LoggerFactory {
 
     @Override
-    public Logger createLogger() {
+    protected Logger createLogger() {
         return new FileLogger();
     }
 

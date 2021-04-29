@@ -4,13 +4,23 @@ package org.vulcan.light.designpattern.factorymethod.example;
  * @author Sam Lu
  * @date 2020/12/6
  */
-public interface LoggerFactory {
+public abstract class LoggerFactory {
+
+    /**
+     * Get a Logger
+     *
+     * @return
+     */
+    public Logger getLogger() {
+        Logger logger = createLogger();
+        return logger;
+    }
 
     /**
      * Create a Logger
      *
      * @return
      */
-    Logger createLogger();
+    protected abstract Logger createLogger();
 
 }
