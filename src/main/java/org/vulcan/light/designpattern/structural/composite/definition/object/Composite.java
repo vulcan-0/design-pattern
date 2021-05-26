@@ -13,7 +13,7 @@ public class Composite implements Component {
 
     @Override
     public void operation() {
-        System.out.println("Composite operation");
+        System.out.println("Composite operation.");
     }
 
     @Override

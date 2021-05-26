@@ -15,7 +15,7 @@ public abstract class Decorator implements Component {
     @Override
     public void operation() {
         component.operation();
-        System.out.println("Decorator operation");
+        System.out.println("Decorator operation.");
     }
 
 }

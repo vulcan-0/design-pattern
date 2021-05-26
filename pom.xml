@@ -5,6 +5,8 @@
 
   <groupId>org.vulcan.light</groupId>
   <artifactId>design-pattern</artifactId>
+  <name>design-pattern</name>
+  <description>Java设计模式样例代码</description>
   <version>1.0.0</version>
 
   <properties>

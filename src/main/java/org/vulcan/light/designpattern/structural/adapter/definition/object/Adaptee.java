@@ -7,7 +7,7 @@ package org.vulcan.light.designpattern.structural.adapter.definition.object;
 public class Adaptee {
 
     public void specificRequest() {
-        System.out.println("Specific Request");
+        System.out.println("Specific Request.");
     }
 
 }

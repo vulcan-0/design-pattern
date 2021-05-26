@@ -8,7 +8,7 @@ public class UnsharedConcreteFlyweight implements Flyweight {
 
     @Override
     public void operation() {
-        System.out.println("UnsharedConcreteFlyweight operation");
+        System.out.println("UnsharedConcreteFlyweight operation.");
     }
 
 }

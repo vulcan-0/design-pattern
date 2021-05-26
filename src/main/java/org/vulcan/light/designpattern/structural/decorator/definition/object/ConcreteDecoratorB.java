@@ -11,7 +11,7 @@ public class ConcreteDecoratorB extends Decorator {
     }
 
     public void addedBehavior() {
-        System.out.println("Concrete Decorator B added behavior");
+        System.out.println("Concrete Decorator B added behavior.");
     }
 
 }

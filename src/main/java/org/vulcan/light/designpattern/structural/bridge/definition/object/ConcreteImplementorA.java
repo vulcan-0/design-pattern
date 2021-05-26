@@ -8,7 +8,7 @@ public class ConcreteImplementorA implements Implementor {
 
     @Override
     public void operationImpl() {
-        System.out.println("Operation A");
+        System.out.println("Operation A.");
     }
 
 }

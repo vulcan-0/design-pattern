@@ -7,11 +7,11 @@ package org.vulcan.light.designpattern.structural.facade.definition.object;
 public class SubSystemB {
 
     public void operation3() {
-        System.out.println("SubSystemB operation3");
+        System.out.println("SubSystemB operation3.");
     }
 
     public void operation4() {
-        System.out.println("SubSystemB operation4");
+        System.out.println("SubSystemB operation4.");
     }
 
 }
