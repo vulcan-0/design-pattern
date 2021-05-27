@@ -18,7 +18,7 @@ public class Singleton {
         System.out.println("Singleton Data: " + singletonData);
     }
 
-    public String getSingletomData() {
+    public String getSingletonData() {
         return singletonData;
     }
 

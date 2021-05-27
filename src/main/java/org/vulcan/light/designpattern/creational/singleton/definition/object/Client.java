@@ -9,7 +9,7 @@ public class Client {
     public static void main(String[] args) {
         Singleton singleton = Singleton.getInstance();
         singleton.singletonOperation();
-        System.out.println("The data of singleton is: " + singleton.getSingletomData());
+        System.out.println("The data of singleton is: " + singleton.getSingletonData());
     }
 
 }
