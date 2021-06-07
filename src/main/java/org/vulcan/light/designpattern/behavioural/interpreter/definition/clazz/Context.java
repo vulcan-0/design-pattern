@@ -6,14 +6,15 @@ package org.vulcan.light.designpattern.behavioural.interpreter.definition.clazz;
  */
 public class Context {
 
-    private AbstractExpression expression;
+    private StringBuffer content = new StringBuffer();
 
-    public void setExpression(AbstractExpression expression) {
-        this.expression = expression;
+    public void append(String text) {
+        this.content.append(text);
     }
 
-    public AbstractExpression getExpression() {
-        return expression;
+    @Override
+    public String toString() {
+        return content.toString();
     }
 
 }

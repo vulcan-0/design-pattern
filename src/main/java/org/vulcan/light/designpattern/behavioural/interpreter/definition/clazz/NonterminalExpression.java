@@ -4,21 +4,24 @@ package org.vulcan.light.designpattern.behavioural.interpreter.definition.clazz;
  * @author Sam Lu
  * @date 2021/5/28
  */
-public class NonterminalExpression extends AbstractExpression {
+public class NonterminalExpression implements AbstractExpression {
 
-    private TerminalExpression terminalExpression;
+    private AbstractExpression expression;
 
     @Override
     public void interpret(Context context) {
-
+        context.append("Nonterminal ");
+        if (expression != null) {
+            expression.interpret(context);
+        }
     }
 
-    public void setTerminalExpression(TerminalExpression terminalExpression) {
-        this.terminalExpression = terminalExpression;
+    public void setExpression(AbstractExpression expression) {
+        this.expression = expression;
     }
 
-    public TerminalExpression getTerminalExpression() {
-        return terminalExpression;
+    public AbstractExpression getExpression() {
+        return expression;
     }
 
 }
