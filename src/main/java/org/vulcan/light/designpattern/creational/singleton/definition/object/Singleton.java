@@ -10,6 +10,10 @@ public class Singleton {
 
     private String singletonData = "data";
 
+    private Singleton() {
+
+    }
+
     public static Singleton getInstance() {
         return uniqueInstance;
     }
