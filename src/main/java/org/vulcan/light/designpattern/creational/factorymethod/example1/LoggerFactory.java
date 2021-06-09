@@ -1,4 +1,4 @@
-package org.vulcan.light.designpattern.creational.factorymethod.example;
+package org.vulcan.light.designpattern.creational.factorymethod.example1;
 
 /**
  * @author Sam Lu

@@ -1,10 +1,10 @@
-package org.vulcan.light.designpattern.creational.factorymethod.example;
+package org.vulcan.light.designpattern.creational.factorymethod.example1;
 
 /**
  * @author Sam Lu
  * @date 2020/12/6
  */
-public class Client {
+public class Demo {
 
     public static void main(String[] args) {
         LoggerFactory fileLoggerFactory = new FileLoggerFactory();
