@@ -1,4 +1,4 @@
-package org.vulcan.light.designpattern.creational.singleton.example;
+package org.vulcan.light.designpattern.creational.singleton.example1;
 
 /**
  * 饿汉式
