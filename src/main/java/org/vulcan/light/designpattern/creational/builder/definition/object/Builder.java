@@ -13,11 +13,4 @@ public interface Builder {
      */
     Builder buildPart();
 
-    /**
-     * 获取产品
-     *
-     * @return
-     */
-    Product getResult();
-
 }

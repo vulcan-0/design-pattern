@@ -14,7 +14,6 @@ public class ConcreteBuilder implements Builder {
         return this;
     }
 
-    @Override
     public Product getResult() {
         return product;
     }

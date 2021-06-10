@@ -6,9 +6,8 @@ package org.vulcan.light.designpattern.creational.builder.definition.object;
  */
 public class Director {
 
-    public static void main(String[] args) {
-        Builder builder = new ConcreteBuilder();
-        System.out.println(builder.buildPart().getResult().getPart());
+    public void construct(Builder builder) {
+        builder.buildPart();
     }
 
 }
