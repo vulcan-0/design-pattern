@@ -1,8 +1,21 @@
 package org.vulcan.light.designpattern.structural.decorator.example;
 
+import java.util.Collection;
+
 /**
+ * 装饰器模式示例
+ *
  * @author Sam Lu
  * @date 2021/6/17
+ * @see java.io.InputStream
+ * @see java.io.OutputStream
+ * @see java.io.Reader
+ * @see java.io.Writer
+ * @see java.util.Collections#checkedCollection(Collection, Class)
+ * @see java.util.Collections#synchronizedCollection(Collection)
+ * @see java.util.Collections#unmodifiableCollection(Collection)
+ * @see javax.servlet.http.HttpServletRequestWrapper
+ * @see javax.servlet.http.HttpServletResponseWrapper
  */
 public class Demo {
 

@@ -3,8 +3,12 @@ package org.vulcan.light.designpattern.structural.composite.example;
 import java.awt.*;
 
 /**
+ * 组合模式示例
+ *
  * @author Sam Lu
  * @date 2021/6/17
+ * @see java.awt.Container#add(Component)
+ * @see javax.faces.component.UIComponent#getChildren()
  */
 public class Demo {
 

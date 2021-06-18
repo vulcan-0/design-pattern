@@ -1,6 +1,8 @@
 package org.vulcan.light.designpattern.structural.bridge.example;
 
 /**
+ * 桥接模式示例
+ *
  * @author Sam Lu
  * @date 2021/6/11
  */
