@@ -1,5 +1,6 @@
 package org.vulcan.light.designpattern.structural.flyweight.example;
 
+import javax.swing.*;
 import java.awt.*;
 
 /**
@@ -29,6 +30,7 @@ public class Demo {
             forest.paintTree(random(0, CANVAS_SIZE), random(0, CANVAS_SIZE),
                     "Autumn Oak", Color.ORANGE, "Autumn Oak texture stub");
         }
+        forest.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         forest.setSize(CANVAS_SIZE, CANVAS_SIZE);
         forest.setVisible(true);
 
