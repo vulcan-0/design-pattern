@@ -4,7 +4,7 @@ package org.vulcan.light.designpattern.behavioural.state.definition.object;
  * @author Sam Lu
  * @date 2021/7/1
  */
-public class Demo {
+public class Client {
 
     public static void main(String[] args) {
         Context context = new Context();
