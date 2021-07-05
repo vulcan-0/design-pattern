@@ -7,7 +7,7 @@ package org.vulcan.light.designpattern.behavioural.visitor.definition.object;
 public interface Element {
 
     /**
-     * 接收范文者
+     * 接收访问者
      *
      * @param visitor
      */
