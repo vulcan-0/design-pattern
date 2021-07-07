@@ -8,6 +8,12 @@ import java.io.File;
  */
 public interface EventListener {
 
+    /**
+     * 发生事件
+     *
+     * @param eventType
+     * @param file
+     */
     void update(String eventType, File file);
 
 }
