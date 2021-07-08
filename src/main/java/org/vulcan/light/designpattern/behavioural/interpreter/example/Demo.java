@@ -1,6 +1,8 @@
 package org.vulcan.light.designpattern.behavioural.interpreter.example;
 
 /**
+ * 解析器模式示例代码
+ *
  * @author Sam Lu
  * @date 2021/6/28
  */
