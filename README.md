@@ -28,7 +28,7 @@
 
 ### 开放——封闭原则（OCP，The Open-Close Principle）
 
-软件实体（类、模块、函数等等）应该是可以扩展的，但不可修改的。
+软件实体（类、模块、函数等等）应该是可以扩展、但是不可修改的。
 
 其特征在于：
 - "对于扩展是开放的"：这意味着模块的行为是可以扩展的。当应用的需求改变时，我们可以对模块进行扩展，使其具有满足那些改变的新行为。换句话来说，我们可以改变模块的功能。
@@ -37,8 +37,18 @@
 做好上面两点的关键是抽象。
 
 ### Liskov替换原则（LSP，The Liskov Substitution Principle）
+
+子类型（subtype）必须能够替换掉它们的基类型（base type）。
+
 ### 依赖倒置原则（DIP，The Dependency Inversion Principle）
+
+a.高层模块不应该依赖于低层模块。二者都应该依赖于抽象。
+b.抽象不应该依赖于细节。细节应该依赖于抽象。
+
 ### 接口隔离原则（ISP，The Interface Segregation Principle）
+
+不应该强迫客户依赖于它们不用的方法。
+
 ### 迪米特法则（LOD，Law Of Demeter，The Least Knowledge Principle）
 
 ## 参考资料
