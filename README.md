@@ -71,39 +71,39 @@
 
 创建型模式与对象的创建有关。
 
-- 工厂方法
-- 抽象工厂
-- 建造者
-- 原型
-- 单例
+- 工厂方法（Factory Method）
+- 抽象工厂（Abstract Factory）
+- 建造者（Builder）
+- 原型（Prototype）
+- 单例（Singleton）
 
 #### 结构型模式
 
 结构型模式处理类或对象的组合。
 
-- 适配器
-- 桥接
-- 组合
-- 装饰
-- 外观
-- 享元
-- 代理
+- 适配器（Adapter）
+- 桥接（Bridge）
+- 组合（Composite）
+- 装饰（Decorator）
+- 外观（Facade）
+- 享元（Flyweight）
+- 代理（Proxy）
 
 #### 行为型模式
 
 行为型模式对类或对象怎样交互和怎样分配职责进行描述。
 
-- 责任链
-- 命令
-- 迭代器
-- 解析器
-- 中介者
-- 备忘录
-- 观察者
-- 状态
-- 策略
-- 模板方法
-- 访问者
+- 责任链（Chain Of Responsibility）
+- 命令（Command）
+- 迭代器（Iterator）
+- 解析器（Interpreter）
+- 中介者（Mediator）
+- 备忘录（Memento）
+- 观察者（Observer）
+- 状态（State）
+- 策略（Strategy）
+- 模板方法（Template Method）
+- 访问者（Visitor）
 
 ### 按范围分类
 
@@ -126,40 +126,40 @@
     <tr>
         <td rowspan="2">范围</td>
         <td>类</td>
-        <td>工厂方法</td>
-        <td>适配器（类）</td>
+        <td>工厂方法（Factory Method）</td>
+        <td>适配器（Adapter）（类）</td>
         <td>
-            解析器<br>
-            模板方法
+            解析器（Interpreter）<br>
+            模板方法（Template Method）
         </td>
     </tr>
     <tr>
         <td>对象</td>
         <td>
-            抽象工厂<br>
-            建造者<br>
-            原型<br>
-            单例
+            抽象工厂（Abstract Factory）<br>
+            建造者（Builder）<br>
+            原型（Prototype）<br>
+            单例（Singleton）
         </td>
         <td>
-            适配器（对象）<br>
-            桥接<br>
-            组合<br>
-            装饰<br>
-            外观<br>
-            享元<br>
-            代理
+            适配器（Adapter）（对象）<br>
+            桥接（Bridge）<br>
+            组合（Composite）<br>
+            装饰（Decorator）<br>
+            外观（Facade）<br>
+            享元（Flyweight）<br>
+            代理（Proxy）
         </td>
         <td>
-            责任链<br>
-            命令<br>
-            迭代器<br>
-            中介者<br>
-            备忘录<br>
-            观察者<br>
-            状态<br>
-            策略<br>
-            访问者
+            责任链（Chain Of Responsibility）<br>
+            命令（Command）<br>
+            迭代器（Iterator）<br>
+            中介者（Mediator）<br>
+            备忘录（Memento）<br>
+            观察者（Observer）<br>
+            状态（State）<br>
+            策略（Strategy）<br>
+            访问者（Visitor）
         </td>
     </tr>
 </table>
