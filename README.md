@@ -112,6 +112,58 @@
 对象模式处理对象间的关系，这些关系在运行时是可以发生变化的，更具动态性。
 实际上，几乎所有的模式都会使用继承机制，所以"类模式"特指那些集中于处理类之间的关系的模式，而大部分模式都属于对象模式的范畴。
 
+<table>
+    <tr>
+        <th rowspan="2"></th>
+        <th rowspan="2"></th>
+        <th colspan="9">目的</th>
+    </tr>
+    <tr>
+        <td>创建型</td>
+        <td>结构型</td>
+        <td>行为型</td>
+    </tr>
+    <tr>
+        <td rowspan="2">范围</td>
+        <td>类</td>
+        <td>工厂方法</td>
+        <td>适配器（类）</td>
+        <td>
+            解析器<br>
+            模板方法
+        </td>
+    </tr>
+    <tr>
+        <td>对象</td>
+        <td>
+            抽象工厂<br>
+            建造者<br>
+            原型<br>
+            单例
+        </td>
+        <td>
+            适配器（对象）<br>
+            桥接<br>
+            组合<br>
+            装饰<br>
+            外观<br>
+            享元<br>
+            代理
+        </td>
+        <td>
+            责任链<br>
+            命令<br>
+            迭代器<br>
+            中介者<br>
+            备忘录<br>
+            观察者<br>
+            状态<br>
+            策略<br>
+            访问者
+        </td>
+    </tr>
+</table>
+
 ## 参考资料
 - 《设计模式：可复用面向对象软件的基础》 —— 机械工业出版社.典藏版
 - [refactoringguru.cn](https://refactoringguru.cn/design-patterns)
