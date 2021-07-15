@@ -1,4 +1,4 @@
-package org.vulcan.light.designpattern.creational.factorymethod.definition.object;
+package org.vulcan.light.designpattern.creational.factorymethod.definition.clazz;
 
 /**
  * @author Sam Lu
