@@ -1,5 +1,3 @@
-# 软件开发实践
-
 ## 设计的坏味道
 
 当软件出现下面任何一种气味时，就表明软件正在腐化。
@@ -63,54 +61,7 @@
 - `结构`：展示模式的每个部分和它们之间的关系。
 - `实现`：提供流行编程语言的代码， 让读者更好地理解模式背后的思想。
 
-### 按目的分类
-
-根据设计模式的目的，可以将其分为创建型、结构型和行为型三种。
-
-#### 创建型模式
-
-创建型模式与对象的创建有关。
-
-- 工厂方法（Factory Method）
-- 抽象工厂（Abstract Factory）
-- 建造者（Builder）
-- 原型（Prototype）
-- 单例（Singleton）
-
-#### 结构型模式
-
-结构型模式处理类或对象的组合。
-
-- 适配器（Adapter）
-- 桥接（Bridge）
-- 组合（Composite）
-- 装饰（Decorator）
-- 外观（Facade）
-- 享元（Flyweight）
-- 代理（Proxy）
-
-#### 行为型模式
-
-行为型模式对类或对象怎样交互和怎样分配职责进行描述。
-
-- 责任链（Chain Of Responsibility）
-- 命令（Command）
-- 迭代器（Iterator）
-- 解析器（Interpreter）
-- 中介者（Mediator）
-- 备忘录（Memento）
-- 观察者（Observer）
-- 状态（State）
-- 策略（Strategy）
-- 模板方法（Template Method）
-- 访问者（Visitor）
-
-### 按范围分类
-
-范围指定模式主要是用于类，还是用于对象。
-类模式处理类和子类之间的关系，这些关系通过继承建立，是静态的，在编译时就已经确定下来了。
-对象模式处理对象间的关系，这些关系在运行时是可以发生变化的，更具动态性。
-实际上，几乎所有的模式都会使用继承机制，所以"类模式"特指那些集中于处理类之间的关系的模式，而大部分模式都属于对象模式的范畴。
+### 设计模式的分类
 
 <table>
     <tr>
@@ -127,7 +78,7 @@
         <td rowspan="2">范围</td>
         <td>类</td>
         <td>工厂方法（Factory Method）</td>
-        <td>适配器（Adapter）（类）</td>
+        <td>适配器（Adapter）</td>
         <td>
             解析器（Interpreter）<br>
             模板方法（Template Method）
@@ -142,7 +93,7 @@
             单例（Singleton）
         </td>
         <td>
-            适配器（Adapter）（对象）<br>
+            适配器（Adapter）<br>
             桥接（Bridge）<br>
             组合（Composite）<br>
             装饰（Decorator）<br>
@@ -164,7 +115,56 @@
     </tr>
 </table>
 
+#### 按目的分类
+
+根据设计模式的目的，可以将其分为创建型、结构型和行为型三种。
+
+##### 创建型模式
+
+创建型模式与对象的创建有关。
+
+- 工厂方法（Factory Method）
+- 抽象工厂（Abstract Factory）
+- 建造者（Builder）
+- 原型（Prototype）
+- 单例（Singleton）
+
+##### 结构型模式
+
+结构型模式处理类或对象的组合。
+
+- 适配器（Adapter）
+- 桥接（Bridge）
+- 组合（Composite）
+- 装饰（Decorator）
+- 外观（Facade）
+- 享元（Flyweight）
+- 代理（Proxy）
+
+##### 行为型模式
+
+行为型模式对类或对象怎样交互和怎样分配职责进行描述。
+
+- 责任链（Chain Of Responsibility）
+- 命令（Command）
+- 迭代器（Iterator）
+- 解析器（Interpreter）
+- 中介者（Mediator）
+- 备忘录（Memento）
+- 观察者（Observer）
+- 状态（State）
+- 策略（Strategy）
+- 模板方法（Template Method）
+- 访问者（Visitor）
+
+#### 按范围分类
+
+范围指定模式主要是用于类，还是用于对象。
+类模式处理类和子类之间的关系，这些关系通过继承建立，是静态的，在编译时就已经确定下来了。
+对象模式处理对象间的关系，这些关系在运行时是可以发生变化的，更具动态性。
+实际上，几乎所有的模式都会使用继承机制，所以"类模式"特指那些集中于处理类之间的关系的模式，而大部分模式都属于对象模式的范畴。
+
 ## 参考资料
 - 《设计模式：可复用面向对象软件的基础》 —— 机械工业出版社.典藏版
-- [refactoringguru.cn](https://refactoringguru.cn/design-patterns)
 - 《敏捷软件开发：原则、模式与实践》 —— 清华大学出版社
+- [refactoringguru.cn](https://refactoringguru.cn/design-patterns)
