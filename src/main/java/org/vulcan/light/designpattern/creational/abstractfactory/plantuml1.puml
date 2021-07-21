@@ -1,0 +1,24 @@
+@startuml
+class PMWindow implements Window
+class MotifWindow implements Window
+class PMScrollBar implements ScrollBar
+class MotifScrollBar implements ScrollBar
+
+class PMWidgetFactory implements WidgetFactory
+class MotifWidgetFactory implements WidgetFactory
+WidgetFactory : createWindow()
+WidgetFactory : createScrollBar()
+PMWidgetFactory : createWindow()
+PMWidgetFactory : createScrollBar()
+MotifWidgetFactory : createWindow()
+MotifWidgetFactory : createScrollBar()
+
+PMWidgetFactory ..> PMWindow
+PMWidgetFactory ..> PMScrollBar
+MotifWidgetFactory ..> MotifWindow
+MotifWidgetFactory ..> MotifScrollBar
+
+Client --> WidgetFactory
+Client --> Window
+Client --> ScrollBar
+@enduml
