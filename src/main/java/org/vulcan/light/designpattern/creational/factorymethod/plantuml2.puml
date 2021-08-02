@@ -1,0 +1,22 @@
+@startuml
+class ConcreteProduct implements Product
+
+class ConcreteCreator extends Creator
+Creator : factoryMethod()
+Creator : anOperation()
+ConcreteCreator : factoryMethod()
+
+ConcreteCreator ..> ConcreteProduct
+
+note right of Creator::anOperation
+...
+product = factoryMethod();
+...
+end note
+
+note right of ConcreteCreator::factoryMethod
+...
+return new ConcreteProduct();
+...
+end note
+@enduml

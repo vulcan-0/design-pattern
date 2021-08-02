@@ -52,7 +52,7 @@
 ## 相关模式
 
 - 一般会将工厂类实现为单例。
-- 使用工厂方法模式：AbstractFactory仅声明一个接口，创建产品由具体的产品类实现。这时候产品类也是工厂类，产品类负责创建自己。
+- 使用工厂方法模式：AbstractFactory仅声明一个创建产品的方法，创建产品由具体的产品类实现。这时候产品类也是工厂类，产品类负责创建自己。
 
 ```java
 public interface AbstractProduct {
@@ -68,6 +68,6 @@ public class ConcreteProductA implements AbstractProduct, AbstractFactory {
 }
 ```
 
-- 使用模板方法。
+- 使用原型模式。
 
 ## Java中的抽象工厂

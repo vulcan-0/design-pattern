@@ -1,0 +1,18 @@
+@startuml
+class ConcreteBuilder implements Builder
+Builder : buildPart()
+ConcreteBuilder : buildPart()
+ConcreteBuilder : getResult()
+
+interface Product
+ConcreteBuilder ..> Product
+
+Director o-- Builder
+Director : construct()
+
+note right of Director::construct
+for (builder : builders) {
+    builder.buildPart();
+}
+end note
+@enduml
