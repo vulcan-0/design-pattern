@@ -1,0 +1,23 @@
+@startuml
+class Leaf implements Component
+class Composite implements Component
+Component : operation()
+Component : add(Component)
+Component : remove(Component)
+Component : getChild(int)
+Leaf : operation()
+Composite : operation()
+Composite : add(Component)
+Composite : remove(Component)
+Composite : getChild(int)
+
+Composite o-- Component
+
+Client --> Component
+
+note right of Composite::operation()
+for all c in child {
+    c.operation();
+}
+end note
+@enduml

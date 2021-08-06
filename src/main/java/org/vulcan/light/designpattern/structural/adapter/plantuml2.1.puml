@@ -1,0 +1,14 @@
+@startuml
+class Adapter implements Target
+Target : request()
+Adapter : request()
+
+Adapter *-- Adaptee
+Adaptee : specificRequest()
+
+Client --> Target
+
+note right of Adapter::request()
+adaptee.specificRequest();
+end note
+@enduml

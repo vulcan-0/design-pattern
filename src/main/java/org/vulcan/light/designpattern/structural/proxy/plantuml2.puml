@@ -1,0 +1,15 @@
+@startuml
+class RealSubject implements Subject
+class Proxy implements Subject
+Subject : request()
+RealSubject : request()
+Proxy : request()
+
+Proxy --> RealSubject
+
+Client --> Subject
+
+note right of Proxy::request()
+realSubject.request();
+end note
+@enduml
