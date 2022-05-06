@@ -6,7 +6,15 @@
     <groupId>org.vulcan.light</groupId>
     <artifactId>design-pattern</artifactId>
     <name>design-pattern</name>
-    <description>Java设计模式样例代码</description>
+    <description>Java设计模式</description>
+    <version>1.0.0</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+    </properties>
+
     <build>
         <plugins>
             <plugin>
@@ -19,12 +27,5 @@
             </plugin>
         </plugins>
     </build>
-    <version>1.0.0</version>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-    </properties>
 
 </project>
