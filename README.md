@@ -33,5 +33,4 @@
 
 ## 参考资料
 - [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)
-- [Refactoring.Guru](https://refactoringguru.cn/design-patterns/java)
 - [Java设计模式：23种设计模式全面解析](http://c.biancheng.net/design_pattern/)
